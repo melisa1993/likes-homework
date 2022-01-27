@@ -1,0 +1,38 @@
+.container{
+    height: 200px;
+    width: 1080px;
+}
+#box5{
+    height: 200px;
+    width: 500px;
+    border: solid black;
+    margin-left: 50px;
+    margin-top: 50px    ;
+}
+h2{
+    margin-left: 10px;
+    font-size: 30px;
+}
+#likes{
+    margin-left: 300px;
+    margin-top: -55px;
+    font-size: 25px;
+}
+p{
+    margin-left: 10px;
+    font-size: 25px;
+    margin-top: 40px;
+}
+button{
+    box-shadow: 3px 3px 5px 2px black;
+    width: 60px;
+    height: 40px;
+    display: flex;
+    background-color: #ffd966;
+    color: black;
+    border: 60%;
+    border-color: black;
+    margin-left: 400px;
+    margin-top: -158px;
+    font-size: 25px;
+}

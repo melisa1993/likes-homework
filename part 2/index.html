@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <div class="navbar">
+        <h1>Network</h1>
+      </div>
+      <div class="title">
+        <h2>Your Feed</h2>
+      </div>
+      <div class="column1">
+        <div class="avatarbox">
+          <img class="profilepic" src="icons/user-circle.png" alt="profile"> 
+        </div>
+          <a id="addavatar" href="avatar">Add an avatar</a>
+          <h3>James Doe</h3>
+        
+      </div>
+      <div class="column2">
+        <div class="box1">
+          <h2>Neil M</h2>
+          <div id="likes"><label id="lbllike">9</label> like(s)</div>
+          <p>
+            I just set up this new discord bot, let me<br />
+            know what you think.<a href="link"> link<link rel="stylesheet" href="link" /></a>
+          </p>
+          <button id="like" onclick="increasenumber('lbllike')">Like</button>
+        </div>
+        <div class="box2">
+          <h2>Nichole K</h2>
+          <div id="likes"><label id="lbllike2">12</label> like(s)</div>
+          <p>Just finished my <a href="comic">new comic</a>, check it out.</p>
+          <button id="like" class="btnlike" onclick="increasenumber('lbllike2')">Like</button>
+        </div>
+        <div class="box3">
+          <h2>Jim R</h2>
+          <div id="likes"><label id="lbllike3">9</label> like(s)</div>
+          <p>
+            I can't stop listening to the <a href="album">new album</a>. <br />
+            Who else is liking it?
+          </p>
+          <button id="like" onclick="increasenumber('lbllike3')">Like</button>
+        </div>
+      </div>
+    </div>
+    <script src="likes.js"></script>
+  </body>
+</html>
